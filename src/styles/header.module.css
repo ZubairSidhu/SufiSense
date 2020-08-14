@@ -1,0 +1,36 @@
+.top_bar {
+    width: auto;
+    background-color: whitesmoke;
+}
+header {
+    margin-bottom: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    flex-wrap: wrap;
+}
+.nav_links {
+    align-self: flex-end;
+    display: flex;
+    justify-content: space-evenly;
+    flex-grow: 1;
+    margin: 0.8rem auto;
+}
+.nav_links * {
+    color: red;
+}
+figure {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 0;
+}
+figure h4 {
+    margin: 0.8rem auto;
+}
+.logo {
+    outline: 1px solid black;
+    width: 350px;
+    height: 100px;
+    /* FOR RESPONSIVE LOGO SIZE USE max-width:100%;height:auto; */
+}
